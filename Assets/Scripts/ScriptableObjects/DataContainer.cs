@@ -6,6 +6,7 @@ public class DataContainer: ScriptableObject{
     private string key;
     public string Key { 
         get => key; 
+        set => key = value;
     } // end movieData
     private string movieData;
     public string MovieData { 
